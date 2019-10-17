@@ -17,7 +17,7 @@ class NavBar extends Component {
             <li><Link className="nav-link" to="/login">Login</Link></li>
             <li><Link className="nav-link" to="/register">Register</Link></li>
             <li><Link className="nav-link" to="/logout"
-            {...localStorage.clear("userId")}>
+            {...localStorage.clear("activeuser")}>
               Logout
               </Link></li>
           </ul>

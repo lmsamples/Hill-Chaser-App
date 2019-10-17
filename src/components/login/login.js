@@ -22,7 +22,7 @@ class Login extends Component {
                 if (password === "" || userName === "") { alert("Please enter username and password") }
                 else if (user[0].password === this.state.password) {
                     localStorage.setItem("userId", user[0].id)
-                    // .then(() => this.props.history.push("/"))
+                    this.props.history.push("/")
                 }
                 else {
                     (alert("Incorrect Password"))

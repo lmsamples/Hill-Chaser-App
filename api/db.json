@@ -38,6 +38,15 @@
       "pace": "7:30",
       "location": "Hurricane City Park",
       "date": "10-23-19"
+    },
+    {
+      "distance": "4 miles",
+      "pace": "5:30",
+      "location": "hurricane city park",
+      "date": "2019-10-17",
+      "userId": 1,
+      "activityId": 1,
+      "id": 3
     }
   ],
   "activity": [
