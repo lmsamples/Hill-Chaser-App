@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "levi",
+      "password": "1234"
+    },
+    {
+      "name": "jacob",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "workouts": [
+    {
+      "id": 1,
+      "activityId": 1,
+      "userId": 1,
+      "distance": "1 mile",
+      "pace": "6:30",
+      "location": "Ritter Park",
+      "date": "10-25-19"
+    },
+    {
+      "id": 1,
+      "activityId": 2,
+      "userId": 1,
+      "distance": "6 miles",
+      "pace": "15 mph",
+      "location": "Elenor Park",
+      "date": "10-25-19"
+    },
+    {
+      "id": 2,
+      "activityId": 1,
+      "userId": 2,
+      "distance": "2 miles",
+      "pace": "7:30",
+      "location": "Hurricane City Park",
+      "date": "10-23-19"
+    }
+  ],
+  "activity": [
+    {
+      "id": 1,
+      "activity": "running"
+    },
+    {
+      "id": 2,
+      "activity": "cycling"
+    }
+  ]
+}
