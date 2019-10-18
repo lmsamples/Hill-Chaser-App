@@ -6,7 +6,7 @@ export default {
     },
 
     getAllRuns() {
-        return fetch(`${remoteURL}/workouts?activityId=${localStorage.getItem("userId")}&userId=1`).then(result => result.json())
+        return fetch(`${remoteURL}/workouts?activityId=1&userId=${localStorage.getItem("userId")}`).then(result => result.json())
     },
 
     postActivity(newActivity) {
@@ -25,5 +25,5 @@ export default {
         })
             .then(result => result.json())
     }
-    
+
 }

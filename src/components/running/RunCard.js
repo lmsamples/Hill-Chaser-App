@@ -7,7 +7,7 @@ class RunCard extends Component {
             <p>{this.props.run.distance} at {this.props.run.pace} pace</p>
             <p className="date">{this.props.run.date}</p>
             <div className="button-container">
-                <button>Delete</button>
+                <button type="button" onClick={() => this.props.deleteRun(this.props.run.id)}>Delete</button>
                 <button>Edit</button>
             </div>
             </div>

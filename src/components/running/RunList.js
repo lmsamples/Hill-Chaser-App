@@ -74,7 +74,10 @@ class RunList extends Component {
                         </button>
                 </form>
                 </div>
-                {this.state.runs.map(run => <RunCard key={run.id} run={run} />
+                {this.state.runs.map(run => <RunCard
+                key={run.id}
+                run={run}
+                 deleteRun={this.deleteRun} />
                 )}
             </div>
         )
